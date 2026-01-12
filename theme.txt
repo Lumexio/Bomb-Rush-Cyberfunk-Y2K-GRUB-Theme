@@ -1,0 +1,43 @@
+# Bomb Rush Cyberfunk Y2K GRUB Theme
+
+title-text: "Bomb Rush Bootfunk"
+title-color: "#ffffffff"
+message-color: "#ff66ff"
+title-font: "cyberfunk"
+
+desktop-image: "background.png"
+
++ boot_menu {
+    left = 10%
+    top = 25%
+    width = 80%
+    height = 50%
+    font = "cyberfunk"
+    item_color = "#e0e0e0"
+    selected_item_color = "#ffffff"
+    item_height = 32
+    item_spacing = 4
+    selected_item_pixmap_style = "highlighted_item/slice_*.png"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 10%
+    top = 85%
+    width = 80%
+    height = 25
+
+    border_width = 3
+    border_color = "#00ccff"
+    highlight_color = "#ff66ff"
+    # fg_color = "#00ffcc"
+    fg_color = "#66ff66"
+    highlight_style = "highlighted_item/progress_*.png"
+    highlight_overlay = true
+    # bg_color = "#202020"
+    text = "@TIMEOUT_NOTIFICATION_LONG@"
+    text_color = "#ffffff"
+    font = "cyberfunk"
+}
+
+
