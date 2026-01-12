@@ -1,3 +1,4 @@
+
 # Bomb Rush Cyberfunk GRUB Theme
 
 A **Y2K / Frutiger Aero-inspired** GRUB theme based on *Bomb Rush Cyberfunk* aesthetics.
